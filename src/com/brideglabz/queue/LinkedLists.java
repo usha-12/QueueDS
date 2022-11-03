@@ -3,8 +3,6 @@ package com.brideglabz.queue;
 public class LinkedLists <T extends Comparable<T>>{
     Node<T> head;
     Node<T> tail;
-
-
     public LinkedLists() {
         this.head = null;
         this.tail = null;

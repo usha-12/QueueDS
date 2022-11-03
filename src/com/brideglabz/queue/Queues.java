@@ -18,9 +18,7 @@ public class Queues<T extends Comparable<T>> {
             list.append(newElement);
             System.out.println("\n\nSuccessfully enqueued element " + newElement + " to the queue.");
         }
-    }
-
-    public void dequeue() {
+    }public void dequeue() {
         if(isEmpty()) {
             System.out.println("\nQueue Underflow!\nNo more elements to dequeue.");
         }

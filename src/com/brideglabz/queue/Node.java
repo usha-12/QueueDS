@@ -1,5 +1,4 @@
 package com.brideglabz.queue;
-
 public class Node <T>{
     T data;
     Node <T> next;
@@ -24,7 +23,6 @@ public class Node <T>{
     public Node<T> getNext() {
         return next;
     }
-
     public void setNext(Node<T> next) {
         this.next = null;
     }
